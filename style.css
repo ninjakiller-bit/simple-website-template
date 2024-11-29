@@ -29,7 +29,18 @@ a:focus {
 small {
   font-size: 75%;
 }
+#header {
+  background-color: transparent !important;
+  color: white; /* Ensure text is visible against background */
+}
 
+.main-menu .nav-link {
+  color: white !important;
+}
+
+.main-menu .nav-link:hover {
+  color: #ccc !important;
+}
 /**
  * Headings
  */
