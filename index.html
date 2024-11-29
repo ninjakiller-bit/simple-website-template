@@ -78,25 +78,6 @@
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
         
-    <script> // Smooth scrolling effect
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-    </script>
-
-     <script>
-        // Navigation menu toggle
-const navToggle = document.querySelector('.nav-toggle');
-const navMenu = document.querySelector('.main-menu');
-
-navToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('show');
-});
-    </script> 
+   
       </body>
 </html>
