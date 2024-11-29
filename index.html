@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-   <head>
+  <head>
     <!-- Page setup -->
     <meta charset="utf-8">
     <title>dog poop</title>
@@ -26,30 +26,28 @@
     <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   </head>
   
   <body>
 
-    <header id="header">
-      <img src="logo.jpg">
+    <header id="header" class="bg-primary text-white text-center py-3">
+      <img src="logo.jpg" class="img-fluid">
       <h1>dog poop</h1>
       
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
+      <ul class="main-menu nav justify-content-center">
+        <li class="nav-item"><a class="nav-link text-white" href="#home">home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#about">about</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contact">contact</a></li>
       </ul>                 
     </header>
    
-    <div id="container">
+    <div id="container" class="container mt-4">
       <div class="inner">
         <div id="content"> 
           
           <div id="home" class="content-region hide">
-
-
-
             <h2>Home</h2>
             <p>
               This is a simple website template published with Github Pages. <a href="https://github.com/cpl-makerlab/simple-website-template">Fork this repository</a> to create your own site!
@@ -74,13 +72,12 @@
       </div>
     </div>
 
-    <footer>  
-  
+    <footer class="bg-light text-center py-3">  
+      Footer content here
     </footer>
     
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
         
-   
-      </body>
+  </body>
 </html>
