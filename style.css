@@ -107,12 +107,11 @@ body {
   max-width:800px;
   margin:25px auto;
 }
-header, #content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
-  color:#FFFFFF; 
-}
-
+#header {
+  background: linear-gradient(to right, #4CAF50, #3E8E41);  /* Earthy tones like green */
+  color: white;
+  padding: 20px;
+  text-align: center;
 /* Menu Links */
 ul.main-menu {
   margin: 0;
